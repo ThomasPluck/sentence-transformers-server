@@ -8,6 +8,18 @@ Visit the [official Gitlab
 repo](https://gitlab.com/da_doomer/sentence-transformers-server) or the [Github
 mirror](https://github.com/dadoomer/sentence-transformers-server).
 
+## Docker Installation:
+
+```bash
+
+# within the sentence-transformers-server root folder:
+
+docker build -t st-server:latest .
+
+docker run -p 9012:9012 st-server:latest
+
+```
+
 ## Demo
 
 Visit the [demo page](https://da_doomer.gitlab.io/sentence-transformers-server/) to confirm your server is
